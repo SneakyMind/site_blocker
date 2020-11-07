@@ -9,7 +9,7 @@ sites_to_block = [
 
 Linux_host = '/etc/hosts'
 Window_host = r"C:\Windows\System32\drivers\etc\hosts"
-default_hoster = Linux_host
+default_hoster = Window_host
 redirect = "127.0.0.1"
 
 def block_websites(start_hour , end_hour):
